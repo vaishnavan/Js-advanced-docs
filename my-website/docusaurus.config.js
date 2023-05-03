@@ -76,14 +76,20 @@ const config = {
           {
             type: "docSidebar", // docSidebar
             position: "left",
-            sidebarId: "newone", // foldername
+            sidebarId: "javascript", // foldername
             label: "JavaScript", // navbar title
           },
           {
             type: "docSidebar", // docSidebar
             position: "left",
-            sidebarId: "newtwo", // foldername
+            sidebarId: "react", // foldername
             label: "React", // navbar title
+          },
+          {
+            type: "docSidebar", // docSidebar
+            position: "left",
+            sidebarId: "nextjs", // foldername
+            label: "Nextjs", // navbar title
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
