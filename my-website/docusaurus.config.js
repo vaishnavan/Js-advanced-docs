@@ -111,7 +111,7 @@ const config = {
             items: [
               {
                 label: "Javascript",
-                to: "/docs/newone/intro",
+                to: "/docs/javascript/intro",
               },
             ],
           },
