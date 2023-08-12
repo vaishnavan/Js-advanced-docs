@@ -61,14 +61,12 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    (
-      {
+    ({
       // Replace with your project's social card
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: "dark",
         disableSwitch: false,
-        respectPrefersColorScheme: true
-        
+        respectPrefersColorScheme: true,
       },
       navbar: {
         title: "<JS__World />",
@@ -90,6 +88,12 @@ const config = {
             position: "left",
             sidebarId: "nextjs", // foldername
             label: "Nextjs", // navbar title
+          },
+          {
+            type: "docSidebar", // docSidebar
+            position: "left",
+            sidebarId: "typescript", // foldername
+            label: "Typescript", // navbar title
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
